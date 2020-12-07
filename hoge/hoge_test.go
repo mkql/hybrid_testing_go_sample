@@ -8,3 +8,5 @@ func TestMessage(t *testing.T) {
 		t.Fatalf("want %s, but got %s", want, got)
 	}
 }
+
+func someHelperFunc(){}
